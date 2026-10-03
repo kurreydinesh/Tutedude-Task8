@@ -1,0 +1,161 @@
+# Laundry Services Website
+
+## Project Overview
+
+This project is a responsive **Laundry Services Website** developed using **HTML5 and CSS3**. The website provides a clean and simple user interface for a laundry service. It contains a navigation bar, laundry service information, booking button, responsive layout, and laundry-related image.
+
+The website is designed to work on desktop, tablet, and mobile screen sizes using CSS media queries.
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* Flexbox
+* CSS Media Queries
+* Responsive Web Design
+
+## Features
+
+* Responsive navigation header
+* Website logo
+* Home, Services, About Us, and Contact Us links
+* Username button
+* Mobile hamburger menu
+* Responsive hero section
+* Laundry service heading
+* Service description
+* Book a service button
+* Laundry machine image
+* Mobile and tablet responsive design
+* Image alternative text using `alt`
+
+## Project Structure
+
+```text
+Laundry-Services/
+│
+├── index.html
+├── style2.css
+├── image.png
+└── README.md
+```
+
+## File Description
+
+### index.html
+
+This file contains the main structure of the website.
+
+It includes:
+
+* Header
+* Logo
+* Navigation menu
+* Username button
+* Hamburger menu
+* Hero section
+* Laundry service content
+* Booking button
+* Laundry image
+
+### style2.css
+
+This file contains the complete styling of the webpage.
+
+It controls:
+
+* Layout
+* Colors
+* Fonts
+* Navigation
+* Buttons
+* Hero section
+* Image size and position
+* Mobile menu
+* Responsive design
+
+### image.png
+
+This image is displayed in the hero section and represents the laundry service.
+
+## Responsive Design
+
+The website uses CSS media queries to adjust the design according to screen size.
+
+### Tablet / Small Screen
+
+```css
+@media (max-width: 770px) and (max-height: 1024px)
+```
+
+This changes the font sizes, spacing, image size, button size, and overall layout for smaller screens.
+
+### Mobile Screen
+
+```css
+@media (max-width: 376px) and (max-height: 751px)
+```
+
+On smaller mobile devices:
+
+* Navigation links are hidden.
+* Hamburger menu is displayed.
+* Hero section becomes vertical.
+* Image size is reduced.
+* Text size is adjusted.
+* Booking button is resized.
+
+## Mobile Navigation
+
+The hamburger menu is implemented using CSS.
+
+```css
+.hamburgerMenu:focus + .mobile-nav {
+    display: flex;
+}
+```
+
+When the hamburger button receives focus, the mobile navigation menu becomes visible.
+
+## Accessibility
+
+The laundry image includes alternative text:
+
+```html
+<img class="Image" src="image.png" alt="Laundry Machine Image">
+```
+
+The `alt` attribute provides a text description of the image for users using screen readers.
+
+## How to Run
+
+1. Create a folder named `Laundry-Services`.
+2. Add `index.html`, `style2.css`, and `image.png` to the folder.
+3. Open the folder in VS Code.
+4. Make sure the CSS and image file paths are correct.
+5. Open `index.html` in a browser.
+6. You can also use VS Code Live Server to run the project.
+
+## Future Improvements
+
+* Add a functional booking form.
+* Add JavaScript for interactive features.
+* Add service and pricing sections.
+* Add customer reviews.
+* Add a contact form.
+* Connect the website with a backend.
+* Add animations and hover effects.
+* Improve mobile navigation.
+* Add SEO optimization.
+
+## Purpose
+
+The purpose of this project is to demonstrate the development of a **responsive frontend website** using HTML and CSS. The project also demonstrates the use of Flexbox, CSS media queries, responsive layouts, navigation menus, buttons, and image handling.
+
+## Author
+
+**Dinesh Kurrey**
+
+## Project Type
+
+**Frontend Web Development / Responsive Web Design**
